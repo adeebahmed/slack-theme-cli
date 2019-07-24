@@ -66,7 +66,7 @@ Report any bugs to mykehell123@gmail.com
 
 INSTALL_DIR="$HOME/bin/slack-theme"
 
-CSS_URL="https://raw.githubusercontent.com/laCour/slack-night-mode/master"
+CSS_URL="https://raw.githubusercontent.com/adeebahmed/slack-night-mode/master css/black.css"
 
 ARC_DARK_FILE="arc-dark.css"
 AUBERGINE_FILE="aubergine.css"

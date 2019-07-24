@@ -21,19 +21,19 @@ To download and install, run the following code in your terminal:
 ### For Windows (with WSL)
 
 ```sh
-curl https://raw.githubusercontent.com/mykeels/slack-theme-cli/master/slack-theme -O && bash slack-theme install && . ~/.profile
+curl https://raw.githubusercontent.com/adeebahmed/slack-theme-cli/master/slack-theme -O && bash slack-theme install && . ~/.profile
 ```
 
 ### For Mac Users
 
 ```sh
-curl https://raw.githubusercontent.com/mykeels/slack-theme-cli/master/slack-theme -O && bash slack-theme install && . ~/.bash_profile
+curl https://raw.githubusercontent.com/adeebahmed/slack-theme-cli/master/slack-theme -O && bash slack-theme install && . ~/.bash_profile
 ```
 
 ### For Linux Users
 
 ```sh
-curl https://raw.githubusercontent.com/mykeels/slack-theme-cli/master/slack-theme -O && sudo bash ./slack-theme install && SILENT="$(source ~/.profile)"
+curl https://raw.githubusercontent.com/adeebahmed/slack-theme-cli/master/slack-theme -O && sudo bash ./slack-theme install && SILENT="$(source ~/.profile)"
 ```
 
 ### For Zsh Users
@@ -43,13 +43,13 @@ If you use zsh as your shell environment, you might want to run this instead:
 #### Mac (Zsh)
 
 ```sh
-curl https://raw.githubusercontent.com/mykeels/slack-theme-cli/master/slack-theme -O && SLACK_THEME_SHELL_PROFILE=~/.zshrc bash slack-theme install && . ~/.zshrc
+curl https://raw.githubusercontent.com/adeebahmed/slack-theme-cli/master/slack-theme -O && SLACK_THEME_SHELL_PROFILE=~/.zshrc bash slack-theme install && . ~/.zshrc
 ```
 
 #### Linux (Zsh)
 
 ```sh
-curl https://raw.githubusercontent.com/mykeels/slack-theme-cli/master/slack-theme -O && sudo SLACK_THEME_SHELL_PROFILE=~/.zshrc bash ./slack-theme install && SILENT="$(source ~/.zshrc)"
+curl https://raw.githubusercontent.com/adeebahmed/slack-theme-cli/master/slack-theme -O && sudo SLACK_THEME_SHELL_PROFILE=~/.zshrc bash ./slack-theme install && SILENT="$(source ~/.zshrc)"
 ```
 
 ## How to use
