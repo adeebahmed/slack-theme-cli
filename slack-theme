@@ -105,8 +105,8 @@ then
         ASAR_FILE="${INTEROP_FOLDER_ROOT}/slack/${LATEST_APP_DIR}/resources/app.asar"
         BACKUP_FILE="$BACKUP_FOLDER/ssb-interop.bundle.js"
         ASAR="$DIR/bin/asar"
-        ASAR_REMOTE="https://raw.githubusercontent.com/mykeels/asar-binaries/master/bin/asar-win.exe"
-        BACKUP_FILE_REMOTE="https://raw.githubusercontent.com/mykeels/slack-theme-cli/master/backup/v4.0/ssb-interop.bundle.js"
+        ASAR_REMOTE="https://raw.githubusercontent.com/adeebahmed/asar-binaries/master/bin/asar-win.exe"
+        BACKUP_FILE_REMOTE="https://raw.githubusercontent.com/adeebahmed/slack-theme-cli/master/backup/v4.0/ssb-interop.bundle.js"
     fi
 elif [ "$(uname)" == "Linux" ] # Linux OS
 then
@@ -121,8 +121,8 @@ then
         ASAR_FILE="/Applications/Slack.app/Contents/Resources/app.asar"
         BACKUP_FILE="$BACKUP_FOLDER/ssb-interop.bundle.js"
         ASAR="$DIR/bin/asar"
-        ASAR_REMOTE="https://raw.githubusercontent.com/mykeels/asar-binaries/master/bin/asar-macos"
-        BACKUP_FILE_REMOTE="https://raw.githubusercontent.com/mykeels/slack-theme-cli/master/backup/v4.0/ssb-interop.bundle.js"
+        ASAR_REMOTE="https://raw.githubusercontent.com/adeebahmed/asar-binaries/master/bin/asar-macos"
+        BACKUP_FILE_REMOTE="https://raw.githubusercontent.com/adeebahmed/slack-theme-cli/master/backup/v4.0/ssb-interop.bundle.js"
     fi
 fi
 
@@ -200,8 +200,8 @@ then
     then
         curl $BACKUP_FILE_REMOTE -o "$INSTALL_DIR/backup/ssb-interop.bundle.js"
     fi
-    curl https://raw.githubusercontent.com/mykeels/slack-theme-cli/master/slack-day -O
-    curl https://raw.githubusercontent.com/mykeels/slack-theme-cli/master/slack-night -O
+    curl https://raw.githubusercontent.com/adeebahmed/slack-theme-cli/master/slack-day -O
+    curl https://raw.githubusercontent.com/adeebahmed/slack-theme-cli/master/slack-night -O
     chmod 766 "$DIR/slack-theme"
     chmod 766 "$DIR/slack-day"
     chmod 766 "$DIR/slack-night"
